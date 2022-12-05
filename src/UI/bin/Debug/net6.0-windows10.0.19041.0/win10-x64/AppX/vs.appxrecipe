@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\cleit\Desktop\PetUI_Maui\src\UI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-02T14:34:50.705</Modified>
+      <Modified>2022-12-05T00:50:43.071</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\UI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-02T14:34:49.310</Modified>
+      <Modified>2022-12-05T00:50:42.071</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\UI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\UI.runtimeconfig.json">
       <PackagePath>UI.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\UI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\UI.dll">
       <PackagePath>UI.dll</PackagePath>
-      <Modified>2022-12-02T14:34:47.654</Modified>
+      <Modified>2022-12-05T00:50:40.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\Services\bin\Debug\net6.0-windows10.0.19041.0\Services.dll">
       <PackagePath>Services.dll</PackagePath>
-      <Modified>2022-12-02T14:06:10.045</Modified>
+      <Modified>2022-12-05T00:42:30.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\UI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UI.exe</PackagePath>
-      <Modified>2022-12-02T14:34:47.684</Modified>
+      <Modified>2022-12-05T00:50:40.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.11\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1144,15 +1144,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\Models\bin\Debug\net6.0\Models.dll">
       <PackagePath>Models.dll</PackagePath>
-      <Modified>2022-12-02T13:56:55.823</Modified>
+      <Modified>2022-12-05T00:42:28.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\Utils\bin\Debug\net6.0\Utils.dll">
       <PackagePath>Utils.dll</PackagePath>
-      <Modified>2022-12-02T13:18:17.507</Modified>
+      <Modified>2022-12-05T00:42:28.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\Desktop\PetUI_Maui\src\UI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\UI.deps.json">
       <PackagePath>UI.deps.json</PackagePath>
-      <Modified>2022-12-02T14:34:50.162</Modified>
+      <Modified>2022-12-05T00:50:42.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cleit\.nuget\packages\microsoft.maui.controls.ref.win\6.0.547\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

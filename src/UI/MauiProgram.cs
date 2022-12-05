@@ -27,25 +27,25 @@ namespace UI
 
             builder.Services.AddHttpClient<TokenAuthenticationProvider>(x =>
             {
-                x.BaseAddress = new Uri("https://https://apistorepet.azurewebsites.net/");
+                x.BaseAddress = new Uri("https://apistorepet.azurewebsites.net/");
                 x.DefaultRequestHeaders.Add("Accept", "application/+json");
             });
 
             builder.Services.AddHttpClient<IAccountServices, AccountServices>(x =>
             {
-                x.BaseAddress = new Uri("https://https://apistorepet.azurewebsites.net/");
+                x.BaseAddress = new Uri("https://apistorepet.azurewebsites.net/");
                 x.DefaultRequestHeaders.Add("Accept", "application/+json");
             });
 
             builder.Services.AddHttpClient<IRolesServices, RolesServices>(x =>
             {
-                x.BaseAddress = new Uri("https://https://apistorepet.azurewebsites.net/");
+                x.BaseAddress = new Uri("https://apistorepet.azurewebsites.net/");
                 x.DefaultRequestHeaders.Add("Accept", "application/+json");
             });
 
             builder.Services.AddHttpClient<IProductServices, ProductServices>(x =>
             {
-                x.BaseAddress = new Uri("https://https://apistorepet.azurewebsites.net/");
+                x.BaseAddress = new Uri("https://apistorepet.azurewebsites.net/");
                 x.DefaultRequestHeaders.Add("Accept", "application/+json");
             });
 
