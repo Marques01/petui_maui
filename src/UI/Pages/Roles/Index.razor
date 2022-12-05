@@ -1,0 +1,8 @@
+﻿@page "/roles/index"
+@inject IRolesServices _roleServices
+
+
+@foreach (var item in Roles)
+{
+    <p>@item.Name</p>
+}    

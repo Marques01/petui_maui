@@ -1,0 +1,80 @@
+﻿@using System.Security.Claims;
+@inherits LayoutComponentBase
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject TokenAuthenticationProvider _authServices
+@inject NavigationManager _navigationManager
+@inject IJSRuntime _js
+<AuthorizeView>
+    <Authorized>
+        <div class="page">
+            <div class="sidebar">
+                <NavMenu />
+            </div>
+
+            <main>
+
+                <div class="top-row px-4">
+
+                    <label>@userName</label>
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#LogoutModal">
+                        Logout
+                    </button>
+                </div>
+                <article class="content px-4">
+                    @Body
+                </article>
+            </main>
+
+        </div>
+    </Authorized>
+
+    <NotAuthorized>
+        <UI.Pages.Account.Login></UI.Pages.Account.Login>
+    </NotAuthorized>
+</AuthorizeView>
+<!-- Modal -->
+<div class="modal fade" id="LogoutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Deseja realmente fazer logout?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @onclick="Logout">Sim</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    string userName = string.Empty;
+
+    List<Claim> claims = new List<Claim>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var auth = await _authServices.GetAuthenticationStateAsync();
+
+        var user = auth.User;
+
+        if (user.Claims.Count() > 0)
+            userName = user.Claims.ElementAt(1).Value;
+    }
+
+    private void Login()
+    {
+        _navigationManager.NavigateTo("/login");
+    }
+
+    private async Task Logout()
+    {
+        await _authServices.Logout();
+
+        _navigationManager.NavigateTo("/login", true);
+    }    
+}

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Utils/1.0.0": {
+        "dependencies": {
+          "Microsoft.JSInterop": "6.0.8"
+        },
+        "runtime": {
+          "Utils.dll": {}
+        }
+      },
+      "Microsoft.JSInterop/6.0.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.JSInterop/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xdqTaQaofY1ypf2mki9IeWaUZwnBM+smdplCcjLVcGcxqZdUf+rWdQh1Vt4fGkF+2Hi56Y3jwOtAQUbfv7T44Q==",
+      "path": "microsoft.jsinterop/6.0.8",
+      "hashPath": "microsoft.jsinterop.6.0.8.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+C:\Users\cleit\Desktop\PetUI_Maui\src\Services\Services.csproj;neutral
+C:\Users\cleit\Desktop\PetUI_Maui\src\UI\UI.csproj;x64
